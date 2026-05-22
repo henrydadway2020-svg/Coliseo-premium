@@ -3144,7 +3144,7 @@ function buildJsonFromFiles(input){
     if(!manifest[fNum]) manifest[fNum]=[];
     // Reconstruir ruta relativa normalizada
     const ext = file.name.split('.').pop();
-    manifest[fNum].push(`imagenes/FECHA${fNum}/BATALLA ${bNum}.${ext}`);
+    manifest[fNum].push(`imagenes/FECHA ${fNum}/BATALLA ${bNum}.${ext}`);
   });
 
   // Ordenar cada fecha por número de batalla
